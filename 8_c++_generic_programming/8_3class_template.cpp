@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// 자료형에 따라서 다르게 동작하는 클래스 집합을 만들 수 있다.
 template <typename T>
 class Data
 {

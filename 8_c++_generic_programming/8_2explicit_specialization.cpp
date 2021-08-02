@@ -13,6 +13,8 @@ void change(T &a, T &b)
     b = temp;
 }
 
+// int형 데이터일 때는 아래를 실행한다.
+// int형이 명시적이므로 명시적 특수화라고 한다.
 template <>
 void change<int>(int &a, int &b)
 {

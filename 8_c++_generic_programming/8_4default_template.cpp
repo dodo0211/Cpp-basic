@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// 어떤 자료형을 사용할지 명시하지 않았을때, 기본적으로(default) int형을 사용한다.
 // class template는 <typename T>
 template <typename T = int>
 class Data
